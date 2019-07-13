@@ -27,3 +27,8 @@ Some Bash command repo for me to do keep saking. I plan to keep three sections b
    
    ### k8 commands
    ### Other commands
+    | Git Explain        | Git commands      | 
+   | ------------- |:-------------:|
+   |Add files for the add    | git add . | 
+   |Git status command- Returns what is the status of the log entry  | git status |
+   |Getting all the log information | git log |
