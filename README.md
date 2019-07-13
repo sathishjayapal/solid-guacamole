@@ -1,5 +1,12 @@
 # solid-guacamole
 Some Bash command repo for me to do keep saking. I plan to keep three sections based on what I work on
+
+| Command        | Purpose      | 
+   | ------------- |:-------------:|
+   |Markdown cheat sheet link    | https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet |
+   
+   
+ 
   ### Docker images commands
   
  | Command        | Purpose      | 
