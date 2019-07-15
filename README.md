@@ -38,6 +38,7 @@ Some Bash command repo for me to do keep saking. I plan to keep three sections b
    |Getting commit with comment | git commit -am "Some comment to go with" |Commits without any vm editor|
    | To create a branch | git branch demo-master| demo-master is the branch am going to start with |
    | Switching to the brainch | git checkout demo-master| demo-master is the branch we are switching to |
+   |In order to push code to branch | git push --set-upstream origin demo-master|Pushes code to the demo-master |
    
    ## Git Fancy commands
    
