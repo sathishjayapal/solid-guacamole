@@ -38,3 +38,4 @@ Some Bash command repo for me to do keep saking. I plan to keep three sections b
    |Getting commit with comment | git commit -am "Some comment to go with" |Commits without any vm editor|
    |Getting commit with comment | git show --oneline  |Shows all commits in one line|
    |Getting dirty with the Git branches | git commit --am "starting this module now" |
+   |Doing a new branch here Git branches | git branch demo-master |
