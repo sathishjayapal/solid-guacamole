@@ -27,6 +27,7 @@ Some Bash command repo for me to do keep saking. I plan to keep three sections b
    
    ### k8 commands
    ### Other commands
+   ##delete this in master
    
      
    | Git Explain        | Git commands | followup |
