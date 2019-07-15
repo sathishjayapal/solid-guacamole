@@ -36,5 +36,13 @@ Some Bash command repo for me to do keep saking. I plan to keep three sections b
    |Getting all the log information | git log |
    |Getting commit | git commit -a |Brings a VIM editor. 'I' will insert details and 'ESC' followed by ':wq' will exit editor|
    |Getting commit with comment | git commit -am "Some comment to go with" |Commits without any vm editor|
-   |Getting commit with comment | git show --oneline  |Shows all commits in one line|
-   |Getting dirty with the Git branches | git commit --am "starting this module now" |
+   | To create a branch | git branch demo-master| demo-master is the branch am going to start with |
+   | Switching to the brainch | git checkout demo-master| demo-master is the branch we are switching to |
+   
+   ## Git Fancy commands
+   
+   |Git Explain| Git commands | followup |
+   | ------------- |:-------------:| :-------------: |
+   |Getting commit with comment | git show --oneline |Shows all commits in one line|
+   | Shows the graph of the commits |git log --oneline --all --graph| Complete graph in one line|
+    
