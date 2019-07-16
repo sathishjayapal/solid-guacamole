@@ -15,6 +15,14 @@ Some Bash command repo for me to do keep saking. I plan to keep three sections b
    |Removing old Docker containers    | docker rm $(docker ps -q -f status=exited) |
    |Running an image    | docker run -it <image-name>  |
    
+   ### Aws commands for CLI
+   
+   |Command|Explaination|
+   | ------------- |:-------------:|
+   |aws configure |To set default profile. Best practice don't set one|
+   |aws sts get-caller-identity --profile aws-profile-user2 |Command to do a AWS cli task by setting the --profile tag|
+   |source awsswitch/profile1 | Command to make profile1 active. This command is needed to makes sure we can switch between profiles on the fly.|
+   
 
    ### Bash script commands
    
