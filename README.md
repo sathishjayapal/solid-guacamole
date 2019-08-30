@@ -35,15 +35,21 @@ Some Bash command repo for me to do keep saking. I plan to keep three sections b
    
    ### k8 commands
    ### Other commands
+   | | |
+   |----- |:------:|
+   | Add the following line to your .bash_profile file with a text editor: | alias ic='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs'|
+  |Open a new terminal window | ic |
    
      
    | Git Explain        | Git commands | followup |
    | ------------- |:-------------:| :-------------: |
-   |Add files for the add    | git add . | |
-   |Git status command- Returns what is the status of the log entry  | git status |
-   |Getting all the log information | git log |
-   |Getting commit | git commit -a |Brings a VIM editor. 'I' will insert details and 'ESC' followed by ':wq' will exit editor|
-   |Getting commit with comment | git commit -am "Some comment to go with" |Commits without any vm editor|
-   |Getting commit with comment | git show --oneline  |Shows all commits in one line|
-   |Getting dirty with the Git branches | git commit --am "starting this module now" |
-   |Doing a new branch here Git branches | git branch demo-master |
+   | Add files for the add | git add . | |
+   |Git status command- Returns what is the status of the log entry | git status |
+   |Getting all the log information| git log | |
+   |Getting commit | git commit -a |Brings a VIM editor. 'I' will insert details and 'ESC' followed by ':wq' will exit editor| |
+   | Getting commit with comment | git commit -am "Some comment to go with" | Commits without any vm editor |
+  |Getting commit with comment | git show --oneline  | Shows all commits in one line|
+  |Getting dirty with the Git branches | git commit --am "starting this module now" | | 
+  |Git utility command for status |git log --online --all --graph| Gives a graphical view of the command and commits made |
+  
+   
