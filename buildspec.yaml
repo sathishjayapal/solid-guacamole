@@ -1,12 +1,13 @@
 version: 0.2
 
 phases:
-    build:
-        commands:
-            - echo Building...
+  build:
+    commands:
+      - echo 'starting '
 artifacts:
-    files:
+  files:
     - serverless/index.html
     - serverless/favicon.ico
     - serverless/styles/*
     - serverless/images/*
+  name: 'serverless-name'
