@@ -1,9 +1,12 @@
 version: 0.2
 
 phases:
-  build:
-    commands:
-      - echo 'starting '
+    install:
+        runtime-versions:
+            nodejs: 10
+    build:
+        commands:
+        - echo 'starting '
 artifacts:
   files:
     - serverless/index.html
