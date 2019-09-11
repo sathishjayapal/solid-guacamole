@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+build:
+  commands:
+    - echo Building...
+artifacts:
+  secondary-artifacts:
+    artifact1:
+      files:
+        - serverless/index.html
+        - serverless/favicon.ico
+        - serverless/styles/*
+        - serverless/images/*
