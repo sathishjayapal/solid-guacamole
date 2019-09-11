@@ -4,9 +4,9 @@ phases:
     build:
         commands:
             - echo Building...
-    artifacts:
-        files:
-        - serverless/index.html
-        - serverless/favicon.ico
-        - serverless/styles/*
-        - serverless/images/*
+artifacts:
+    files:
+    - serverless/index.html
+    - serverless/favicon.ico
+    - serverless/styles/*
+    - serverless/images/*
