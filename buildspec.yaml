@@ -9,8 +9,8 @@ phases:
         - echo 'starting '
 artifacts:
   files:
-    - index.html
-    - favicon.ico
-    - /styles/*
-    - /images/*
+    - serverless/index.html
+    - serverless/favicon.ico
+    - serverless/styles/*
+    - serverless/images/*
   name: 'serverless-name'
